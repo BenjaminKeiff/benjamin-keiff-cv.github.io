@@ -11,9 +11,6 @@ body{
 
 h1 {
     color: white;
-    background-image: url(../img/devBackground.jpg);
-    background-position-y: -500px;
-    background-size: cover;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -26,6 +23,12 @@ h1 {
     font-weight: 700;
 }
 
+.titre{
+    display: block;
+    background-color: transparent;
+    color: #ffae00;
+}
+
 main {
     display: flex;
 }
@@ -34,6 +37,10 @@ main {
     min-height: 10px;
     width: 40%;
     background-color: #e4e4e4;
+}
+
+.rightSide h3 {
+    margin-left: 25px;
 }
 
 .rightSide {
@@ -127,7 +134,7 @@ main a {
     color: #323232;
 }
 
-#yellowBar {
+.yellowBar {
     background-color: #ffae00;
     height: 50px;
 }
@@ -158,4 +165,381 @@ main p img {
     font-weight: 700;
     font-size: 16px;
     padding-right: 20%;
+}
+
+.mobileLanghob{
+    display: none;
+}
+
+#hardskillTab {
+    display: none;
+}
+
+#period {
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+@media (min-width:1700px) {
+    h1 {
+        background-image: url(../img/devBackground.jpg);
+        background-position-y: -500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:1700px) {
+    h1 {
+        font-size: 64px;
+        background-image: url(../img/devBackground.jpg);
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #hardskill p {
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+@media (min-width:200px) and (max-width:600px) {
+    body{
+        width: 100vw;
+        background-color: #e4e4e4;
+        margin: 0px auto 0px auto;
+    }
+    
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        height: 70px;
+        font-size: 40px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        font-weight: 700;
+    }
+    
+    main {
+        display: block;
+    }
+    
+    .leftSide{
+        text-align: left;
+        margin: 0;
+        min-height: 10px;
+        width: 100%;
+        background-color: #e4e4e4;
+    }
+
+    .leftsideText h3 {
+        margin-top: 10px;
+    }
+    
+    .rightSide {
+        min-height: 10px;
+        width: 60%;
+        background-color: #ededed;
+    }
+    
+    main h2 {
+        text-transform: uppercase;
+        color: #ffae00;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    main h3 {
+        text-transform: uppercase;
+        color: #ffae00;
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    
+    main img{
+        margin: 0;
+        width: 95%;
+        box-shadow: whitesmoke 0.1em 0.1em 0.2em;
+    }
+    
+    .bio {
+        margin: 0px;
+        padding: 0px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: -80px;
+    }
+
+    .bio h2 {
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .bio p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .bio p, .bio h2{
+        position: relative;
+        top: -70px;
+    }
+    
+    #hardskill {
+        justify-content: space-between;
+    }
+    
+    #hardskill p:last-child{
+        position: relative;
+        left: -50px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    .rightSide {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+
+    .desktopLanghob {
+        display: none;
+    }
+
+    .mobileLanghob{
+        display: block;
+        margin-top: -10px;
+    }
+
+    .outPage {
+        display: none;
+    }
+
+    .titre{
+        display: flex;
+        background-color: #ffae00;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 20px;
+        padding: 0 0 0 2%;
+    }
+
+    .titre h3{
+        color: #ededed;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:1100px) {
+    .rightSide h3:first-child {
+        margin-top: 0px;
+    }
+    body {
+        width: 100vw;
+        background-color: #e4e4e4;
+    }
+
+    main {
+        display: block;
+    }
+
+    .leftSide {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+    .mobileLanghob{
+        display: none;
+    }
+
+    .desktopLanghob {
+        display: block;
+    }
+
+    main img {
+        margin: 0;
+        width: 50%;
+        box-shadow: whitesmoke 0.1em 0.1em 0.2em;
+    }
+  
+    .bio {
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 0px;
+        line-height: 30px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tabletteNameBio {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bio h2 {
+        top: 0;     
+    }
+
+    .bio p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #hardskill {
+        justify-content: space-between;
+    }
+    
+    #hardskill p:last-child{
+        position: relative;
+        left: 0px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    .rightSide {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .desktopLanghob {
+        display: none;
+    }
+
+    .mobileLanghob{
+        display: block;
+        margin-top: -10px;
+    }
+
+    #hardskillTab h3{
+        text-align: center;
+    }
+
+    .desktopLanghob {
+        display: block;
+    }
+
+    #tabletteDiv .leftsideText:last-child{
+        display: none;
+    }
+
+    .mobileLanghob div:first-child{
+        display: none;
+    }
+
+    .rightSide p:last-child {
+        padding-bottom: 20px;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    #hardskillTab{
+        display: block;
+    }
+
+    #hardskillTabIcon p{
+        text-align: left;
+    }
+
+    #hardskillTabIcon{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #tabletteDiv{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rightSide  {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .titre{
+        display: flex;
+        background-color: #ffae00;
+        color: #ededed;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 10%;
+    }
+
+    .titre h3 {
+        color: #ededed;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1100px) {
+
+
+    #hardskillTab h3{
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+
+    #tabletteDiv .leftsideText:last-child{
+        display: block;
+    }
+
+    .mobileLanghob{
+        display: none;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+    .titre{
+        padding-left: 20%;
+    }
+
+}
+
+@media (min-width:1100px) and (max-width:1300px) {
+    body{
+        width: 75%;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1700px) {
+    body{
+        width: 80%;
+    }
+}
+
+@media (min-width:1550px) and (max-width:1700px) {
+    body{
+        width: 70%;
+    }
 }
