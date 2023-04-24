@@ -221,7 +221,7 @@ main p img {
         margin: 0;
         padding: 0;
         height: 70px;
-        font-size: 35px;
+        font-size: 33px;
         text-shadow: black 0.1em 0.1em 0.2em;
         font-weight: 700;
     }
@@ -347,6 +347,9 @@ main p img {
 }
 
 @media (min-width:600px) and (max-width:1100px) {
+    h1 {
+        font-size: 40px;
+    }
     .rightSide h3:first-child {
         margin-top: 0px;
     }
