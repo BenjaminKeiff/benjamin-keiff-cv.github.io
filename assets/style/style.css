@@ -230,7 +230,7 @@ main p img {
         display: block;
     }
     
-    .texteMobile p, .texteMobile span {
+    .texteMobile h4, .texteMobile p, .texteMobile span {
         padding-right: 40px;
     }
 
