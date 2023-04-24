@@ -230,8 +230,8 @@ main p img {
         display: block;
     }
     
-    .texteMobile {
-        padding-right: 15px;
+    .texteMobile p {
+        padding-right: 40px;
     }
 
     .leftSide{
