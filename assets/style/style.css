@@ -335,6 +335,9 @@ main p img {
 
     .titre h3{
         color: #ededed;
+        text-align: center;
+        margin: 0;
+        padding: 0 0 15px 0;
     }
 
 }
