@@ -73,7 +73,7 @@ main img{
 
 .bio {
     margin-top: 20px;
-    line-height: 30px;
+    line-height: 24px;
     text-align: center;
 }
 
@@ -114,6 +114,10 @@ main img{
     font-style: italic;
     line-height: 22px;
     font-size: 14px;
+}
+
+.rightsideText img {
+    width: 18px;
 }
 
 main h4 {
@@ -179,6 +183,11 @@ main p img {
     display: block;
     margin-top: 10px;
     font-weight: 400;
+}
+
+#rythme {
+    font-weight: 700;
+    font-size: 14px;
 }
 
 @media (min-width:1700px) {
